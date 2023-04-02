@@ -3,8 +3,8 @@ import '../stylesheet/Carousel.css'
 
 export function Carrusel() {
   return (
-    <div className='contenedor-principal'>
-      <Carousel className='contenedor-secundario'>
+    <div>
+      <Carousel>
         <Carousel.Item>
           <img
             className="d-block"

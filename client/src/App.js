@@ -2,12 +2,13 @@ import "./App.css";
 import Carrusel from "./components/Carousel";
 import Footer from "./components/Footer.js";
 import Navbar from "./components/Navbar.js";
+import Imagenconboton from "./components/Imagen-con-boton";
 
 function App() {
   return (
     <div className="App">
       <Navbar />
-      <h1>Imagen Con Boton</h1>
+      <Imagenconboton />
       <h1>Tarjetas</h1>
       <h1>Info</h1>
       <h1>About Us</h1>

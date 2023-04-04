@@ -1,0 +1,47 @@
+.contenedor {
+    display: flex;
+}
+
+.contenedor-texto-boton {
+    /*width: 60%;*/
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #e7eefb;
+}
+
+.contenedor-texto-boton h2 {
+    font-size: 2rem;
+    font-family: 'Permanent Marker', cursive;
+    color: #ff2525;
+    width: 30%;
+    text-shadow: 1.5px 1.5px white;
+}
+
+.contenedor-texto-boton button {
+    display: flex;
+    align-self: center;
+    width: 15vw;
+    background-color: #432344;
+    border: 1px solid #432344;
+    color: #e7eefb;
+    border-radius: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 5px 5px 5px 18px;
+    margin-top: 80px;
+    box-shadow: 1px 1px 5px black;
+}
+  
+.contenedor-imagen {
+    width: auto;
+}
+
+.contenedor-imagen img {
+    opacity: 0.9;
+    height: 500px;
+}
+
+
+
+

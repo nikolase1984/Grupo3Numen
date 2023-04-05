@@ -29,7 +29,7 @@ const Footer = () => {
         <a href=""><h3>CONTACTO</h3></a>
     </div>
     <div className="derechos">
-        <p>Copyright@2022 Copyright@2022 Grupo3Numen. All rights reserved</p>
+        <p>Copyright@2022 Grupo3Numen. All rights reserved</p>
     </div>
 
 

@@ -1,0 +1,55 @@
+.nosotros {
+    width: 100%;
+    height: 75vh;
+    background-image: url(../image/food-g0b5aa2642_1280.jpg);
+    background-size: auto;
+    color: whitesmoke;
+}
+
+h3 {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-size: 50px;
+}
+
+.info {
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+}
+
+.div1{
+    display: flex;
+    background-color: #66330057;
+    border: 2px solid grey;
+    margin: 10px;
+    box-shadow: -3px 1px 15px 0px grey;
+    text-align: justify;
+}
+
+.apertura {
+    width: 45px;
+    height: 45px;
+}
+
+.cierre {
+    width: 25px;
+    height: auto;
+}
+
+.div2{
+    display: flex;
+    background-color: #66330057;
+    border: 2px solid grey;
+    margin: 10px;
+    box-shadow: -3px 1px 15px 0px grey;
+    text-align: justify;
+}
+
+.div3{
+    display: flex;
+    background-color: #66330057;
+    border: 2px solid grey;
+    margin: 10px;
+    box-shadow: -3px 1px 15px 0px grey;
+    text-align: justify;
+}

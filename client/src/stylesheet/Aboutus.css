@@ -26,15 +26,7 @@ h3 {
     text-align: justify;
 }
 
-.apertura {
-    width: 45px;
-    height: 45px;
-}
 
-.cierre {
-    width: 25px;
-    height: auto;
-}
 
 .div2{
     display: flex;
@@ -52,4 +44,13 @@ h3 {
     margin: 10px;
     box-shadow: -3px 1px 15px 0px grey;
     text-align: justify;
+}
+
+
+@media (max-width: 768px) {
+    .info {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
 }

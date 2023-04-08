@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 import '../stylesheet/Navbar.css'
+import logoDelTano from '../image/Logoblanco.png'
 
 const Navbar = () => {
 
@@ -7,7 +8,7 @@ const Navbar = () => {
 
   return (
     <div className='navbar'>
-        <div className='nav-logo'>Pastas</div>
+        <div className='nav-logo'><img className='logoDelTano' src={logoDelTano} alt="logo" /></div>
         <div className={`nav-items ${isOpen && "open"}`}>
             <a href="#">HOME</a>
             <a href="#">PRODUCTOS</a>

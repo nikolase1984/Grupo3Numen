@@ -5,7 +5,6 @@ import Footer from "./components/Footer.js";
 import Navbar from "./components/Navbar.js";
 import BuyNow from "./components/BuyNow";
 import Imagenconboton from "./components/Imagen-con-boton";
-import Imagenconboton from "./components/Imagen-con-boton";
 
 function App() {
   return (

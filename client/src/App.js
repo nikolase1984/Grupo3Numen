@@ -3,11 +3,9 @@ import AboutUs from "./components/Aboutus.js";
 import Carrusel from "./components/Carousel";
 import Footer from "./components/Footer.js";
 import Navbar from "./components/Navbar.js";
-<<<<<<< HEAD
 import BuyNow from "./components/BuyNow";
-=======
 import Imagenconboton from "./components/Imagen-con-boton";
->>>>>>> 07c9a886367132ab1baeab272388db3817d2bf8b
+import Imagenconboton from "./components/Imagen-con-boton";
 
 function App() {
   return (

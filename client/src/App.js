@@ -3,6 +3,8 @@ import AboutUs from "./components/Aboutus.js";
 import Carrusel from "./components/Carousel";
 import Footer from "./components/Footer.js";
 import Navbar from "./components/Navbar.js";
+import BuyNow from "./components/BuyNow";
+import Imagenconboton from "./components/Imagen-con-boton";
 import Imagenconboton from "./components/Imagen-con-boton";
 
 function App() {
@@ -14,7 +16,7 @@ function App() {
       <h1>Info</h1>
       <AboutUs/>
       <h1>Call to action</h1>
-      <h1>Buy Now</h1>
+      <BuyNow />
       <Carrusel />
       <Footer />
     </div>

@@ -28,7 +28,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 10px;
+    padding: 15px;
 }
 
 .redes :hover{
@@ -38,7 +38,7 @@
 }
 
 .fb{
-    margin: 8px;
+    margin: 10px;
 }
 
 .ig{
@@ -68,15 +68,15 @@
 }
 
 h3{
-    padding: 10px 0;
-    font-size: 12px;
+    padding: 5px 0;
+    font-size: 20px;
     font-weight: lighter;
 }
 
 .derechos p{
-    padding: 8px;
+    padding: 12px;
     justify-content: center;
     align-content: center;
-    font-size: 8px;
+    font-size: 12px;
 }
 

@@ -15,7 +15,7 @@
 .buyNow p {
     font-family: garamond;
     text-transform: uppercase;
-    font-size: 10px;
+    font-size: 12px;
     text-align: center;
     margin: 25px;
     line-height: 20px;
@@ -30,7 +30,7 @@
     margin: 10px;
     text-decoration: none;
     color: white;
-    font-size: 10px;
+    font-size: 15px;
     text-transform: uppercase;
 }
 

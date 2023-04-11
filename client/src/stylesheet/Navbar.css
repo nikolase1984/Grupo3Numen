@@ -47,6 +47,8 @@ color: red;
         transform: translateX(-100%);
         transition: 0.3 ease all;
     }
+
+
     .nav-items.open{
         transform: translateX(0) !important;
     }

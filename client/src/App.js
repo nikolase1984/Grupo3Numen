@@ -5,6 +5,7 @@ import Footer from "./components/Footer.js";
 import Navbar from "./components/Navbar.js";
 import BuyNow from "./components/BuyNow";
 import Imagenconboton from "./components/Imagen-con-boton";
+import Info from "./components/Info";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <h1>Call to action</h1>
       <BuyNow />
       <Carrusel />
+      <Info />      
       <Footer />
     </div>
   );

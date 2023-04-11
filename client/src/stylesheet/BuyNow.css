@@ -7,10 +7,17 @@
     box-sizing: border-box;
 }
 
+
 .buyNow{
     display: flex;
     background-color: #E7EEFB;
 }
+
+.imagen {
+    margin: 10px;
+    
+}
+
 
 .buyNow p {
     font-family: garamond;
@@ -23,6 +30,9 @@
     margin-bottom: 15px;
 }
 
+.action{
+    margin-top: 20px;
+}
 .action a{
     background-color: #432344;
     padding: 5px;
@@ -37,3 +47,25 @@
 .action a:hover{
     background-color: #FF2525;
 }
+
+@media (max-width: 768px){
+    .buyNow{
+        display: inline-block;
+        width: auto;
+    }
+
+    .imagen{
+        margin-top: 12px;
+    }
+
+    .buyNow p {
+        margin-top: 10px;
+    }
+
+    .action{
+        margin-bottom: 20px;
+    }
+
+
+}
+ 

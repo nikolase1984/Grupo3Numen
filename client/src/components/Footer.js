@@ -14,13 +14,6 @@ const Footer = () => {
       </div>
     </div>
 
-    <div className="redes">
-      <div>
-          <a className="fb" href="https://www.facebook.com" target="blank"><FaFacebook style={{color: "#FFC03D", fontSize: "35px"}}/></a>
-          <a className="ig" href="https://www.instagram.com" target="blank"><RiInstagramFill style={{color: "#FF2525", fontSize: "35px"}}/></a>
-          <a className="wa" href="https://www.whatsapp.com" target="blank"><RiWhatsappFill style={{color: "#432344", fontSize: "35px"}}/></a>
-      </div>
-    </div>
  
     <div className="section">
         <a href=""><h3>INICIO</h3></a>

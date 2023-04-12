@@ -1,0 +1,65 @@
+.contenedor-pastas{
+    display:inline-flex;
+    border: 1px solid rgb(22, 21, 21);
+    margin: 2px;
+    width: 480px;
+    margin: 100px 10px 50px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    overflow: hidden;
+    /*background-color: #eff4f7;*/
+    background-color: rgb(255, 255, 255);
+    }
+.imagen-pastas{
+    padding: 10px;
+    align-items: center;
+    width: 415px;
+    height: 200px;
+    object-fit: cover;
+    }
+.contenedor-texto-pastas{
+    width: 100%;
+    font-size: 28px;
+    text-align:center;
+    padding: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 2.3rem;
+    margin: 10px 1px;
+    margin-top: -40px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    text-align: center;
+    }
+.producto-pastas{
+    font-size: 2.3rem;
+    padding-bottom: 20px;
+    padding: 7px;
+    }
+.contenido-pastas{
+    font-size: 1.2rem;
+    margin-top: 15px;
+    padding-bottom: 20px;
+    }
+.texto-pasta{
+    font-size: 1.1rem;
+    text-align: left;
+    }
+.contenido-pastas{
+    text-align: center;
+    }
+.producto-pastas{
+    margin: 10px 30px;
+    text-align: center;
+    align-items: center;
+    }
+ button {
+    background-color: #4CAF50; /* Color de fondo */
+    border: none;
+    color: white; /* Color del texto */
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px; /* Forma del botón */
+    }

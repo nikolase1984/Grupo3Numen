@@ -17,8 +17,8 @@
 
 .cocinero {
     align-items:center;
-    width: 250px;
-    height: 390px;
+    width: 480px;
+    height: 480px;
 }
 
 .info {
@@ -39,14 +39,14 @@
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 820px) {
     .nosotros {
         height: 65vh;
     }
 
     .div2{
-        display: flex;
-        font-size: 10px;
+        display: block;
+        font-size: 22px;
     }
    
     .info {
@@ -57,7 +57,7 @@
     }
 
     .cocinero {
-        width: 125px;
-        height: 195px;
+        width: 205px;
+        height: 205px;
     }
 }

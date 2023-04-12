@@ -1,0 +1,20 @@
+.figure{
+    border:solid 2px black;
+    height: 275px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 500px;
+    margin: auto;
+    border: 5px;
+    box-shadow: 3px 3px 3px black
+}
+
+.titulos{
+    text-transform: uppercase;
+    font-weight: bold;
+    
+
+
+}

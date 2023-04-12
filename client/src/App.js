@@ -14,6 +14,7 @@ import CardList from "./components/CardList";
 
 
 
+
 function App() {
   return (
     <div className="App">
@@ -57,6 +58,7 @@ function App() {
       <h1>Call to action</h1>
       <BuyNow />
       <Carrusel />
+      <Info />
       <Footer />
     </div>
   );

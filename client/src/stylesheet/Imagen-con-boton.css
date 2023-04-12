@@ -1,8 +1,10 @@
 .contenedor {
+    width: 100%;
     display: flex;
 }
 
 .contenedor-texto-boton {
+    width: 50%;
     /*width: 60%;*/
     height: 500px;
     display: flex;
@@ -33,7 +35,7 @@
 }
   
 .contenedor-imagen {
-    width: auto;
+    width: 50%;
 }
 
 .contenedor-imagen img {

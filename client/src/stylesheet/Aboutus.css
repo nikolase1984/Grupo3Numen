@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cormorant+Garamond:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
 .nosotros {
     width: 100%;
     height: 45vh;
@@ -9,13 +11,12 @@
 }
 
 .tituloAU{
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
-    font-size: 50px;
+    font-family: "Bebas Neue";
+    font-size: 30px;
 }
 
 .cocinero {
     align-items:center;
-    justify-content: center;
     width: 250px;
     height: 390px;
 }
@@ -33,7 +34,8 @@
 
 .div2 ul li {
     list-style:none;
-   
+    font-family: garamond;
+   text-align: justify;
 }
 
 
@@ -44,7 +46,7 @@
 
     .div2{
         display: flex;
-        font-size: 20px;
+        font-size: 10px;
     }
    
     .info {
@@ -55,9 +57,7 @@
     }
 
     .cocinero {
-        align-items:center;
-        justify-content: center;
-        width: 150px;
-        height: 250px;
+        width: 125px;
+        height: 195px;
     }
 }

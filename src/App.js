@@ -21,6 +21,7 @@ function App() {
       <Pastas
         nombre="Sorrentinos"
         sabor="Mozzarella, Jamon"
+        
         imagen="sorrentinos"
         rendimiento=" 1 plancha por persona.
     "

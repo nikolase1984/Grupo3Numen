@@ -1,7 +1,6 @@
 import React from 'react'
 import {FaFacebook} from "react-icons/fa";
 import {RiWhatsappFill,RiInstagramFill} from "react-icons/ri";
-import fondoRedes from "../image/fondoRedes.jpg"
 
 const Info = () => {
   return (

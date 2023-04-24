@@ -11,7 +11,6 @@ module.exports = {
         yellow: '#FFC03D'
       },
       backgroundImage: {
-        fondoRedes: "url('../image/fondoRedes')"
       }
     },
   },

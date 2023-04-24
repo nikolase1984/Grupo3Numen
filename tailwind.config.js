@@ -19,6 +19,9 @@ module.exports = {
 
         "grey": '#E7EEFB',
         "yellow": '#FFC03D'
+      },
+      backgroundImage: {
+        "fondoRedes": "../image/fondoRedes"
       }
     },
   },

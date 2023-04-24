@@ -1,17 +1,16 @@
 import React from 'react'
 import {FaFacebook} from "react-icons/fa";
 import {RiWhatsappFill,RiInstagramFill} from "react-icons/ri";
-import "../stylesheet/Info.css"
 import fondoRedes from "../image/fondoRedes.jpg"
 
 const Info = () => {
   return (
-    <div className="redes">
-      <p>Visitanos en las redes!</p>
-      <div className="logos">
-          <a className="fb" href="https://www.facebook.com" target="blank"><FaFacebook style={{color: "#FFC03D", fontSize: "35px"}}/></a>
-          <a className="ig" href="https://www.instagram.com" target="blank"><RiInstagramFill style={{color: "#FF2525", fontSize: "35px"}}/></a>
-          <a className="wa" href="https://www.whatsapp.com" target="blank"><RiWhatsappFill style={{color: "#432344", fontSize: "35px"}}/></a>
+    <div className="justify-center h-28">
+      <p className = "m-3 text-2xl bebasNeue">Visitanos en las redes!</p>
+      <div className="flex px-10 m-3 place-content-center">
+          <a className="px-2 text-4xl text-yellow" href="https://www.facebook.com" target="blank"><FaFacebook/></a>
+          <a className="px-2 text-4xl text-red" href="https://www.instagram.com" target="blank"><RiInstagramFill/></a>
+          <a className="px-2 text-4xl text-violet" href="https://www.whatsapp.com" target="blank"><RiWhatsappFill/></a>
       </div>
     </div>
   )

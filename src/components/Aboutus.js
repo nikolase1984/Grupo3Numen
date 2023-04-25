@@ -1,6 +1,5 @@
 import '../stylesheet/Aboutus.css'
 import tenedorAbre from '../image/pngwing.com.png';
-import tenedorCierra from '../image/tenedor (1).png';
 
 const AboutUs = () => {
   return (

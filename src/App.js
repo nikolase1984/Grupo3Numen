@@ -2,7 +2,7 @@ import "./App.css";
 import AboutUs from "./components/Aboutus.js";
 import Carrusel from "./components/Carousel";
 import Footer from "./components/Footer.js";
-import Navbar from "./components/Navbar.js";
+import Nav from "./components/NuevaNav/Nav.jsx";
 import BuyNow from "./components/BuyNow";
 import Imagenconboton from "./components/Imagen-con-boton";
 
@@ -15,7 +15,7 @@ function App() {
   console.log("");
   return (
     <div className="App">
-      <Navbar />
+      <Nav />
       <Imagenconboton />
 
       <Pastas

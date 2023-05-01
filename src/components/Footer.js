@@ -12,11 +12,11 @@ const Footer = () => {
     </div>
 
  
-    <div className="flex justify-center px-8 py-4 text-violet bg-red place-content-center group-hover:text-white">
-        <a href="" className='px-3'><h3>INICIO</h3></a>
-        <a href="" className='px-3'><h3>PRODUCTOS</h3></a>
-        <a href="" className='px-3'><h3>LOCALES</h3></a>
-        <a href="" className='px-3'><h3>CONTACTO</h3></a>
+    <div className="flex px-8 py-4 text-sm text-white md:text-lg justify-evenly bg-red place-content-center group-hover:text-white">
+        <a href="" className=''><h3>INICIO</h3></a>
+        <a href="" className=''><h3>PRODUCTOS</h3></a>
+        <a href="" className=''><h3>LOCALES</h3></a>
+        <a href="" className=''><h3>CONTACTO</h3></a>
     </div>
     <div className="py-2 text-xs font-bold">
         <p>Copyright@2022 Grupo3Numen. All rights reserved</p>

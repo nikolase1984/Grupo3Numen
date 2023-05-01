@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Button from "../NuevaNav/Button";
 import logo from "../../image/Logo blanco.png";
+import Icono from "../../image/barra-de-menus.png";
 
 const Navbar = () => {
   let Links = [
@@ -27,7 +28,7 @@ const Navbar = () => {
           onClick={() => setOpen(!open)}
           className="absolute text-3xl cursor-pointer right-8 top-6 md:hidden"
         >
-          <button name={open ? "close" : "menu"}>+</button>
+          <button className="w-10" name={open ? "close" : "menu"}><img  src={ Icono } alt="icono" /></button>
         </div>
         {open && <p>Soy visible</p>}
 

@@ -10,6 +10,7 @@ import Pastas from "./components/Cards";
 
 import Info from "./components/Info";
 import CardList from "./components/CardList";
+import CallToAction2 from "./components/CallToAction2/CallToAction2";
 
 function App() {
   console.log("");
@@ -54,7 +55,7 @@ function App() {
       <CardList />
 
       <NuevoAboutUs />
-      <h1>Call to action</h1>
+      <CallToAction2 />
       <BuyNow />
       <Carrusel />
       <Info />

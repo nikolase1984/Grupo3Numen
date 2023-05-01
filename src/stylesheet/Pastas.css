@@ -52,14 +52,15 @@
     text-align: center;
     align-items: center;
     }
- button {
-    background-color: #4CAF50; /* Color de fondo */
+ /*button {
+    background-color: #4CAF50;  Color de fondo 
     border: none;
-    color: white; /* Color del texto */
+    color: white;  Color del texto 
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    border-radius: 5px; /* Forma del botón */
-    }
+    border-radius: 5px; Forma del botón 
+    }*/
+    

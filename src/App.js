@@ -1,5 +1,5 @@
 import "./App.css";
-import AboutUs from "./components/Aboutus.js";
+import NuevoAboutUs from "./components/NuevoAboutUs/NuevoAboutUs.jsx";
 import Carrusel from "./components/Carousel";
 import Footer from "./components/Footer.js";
 import Nav from "./components/NuevaNav/Nav.jsx";
@@ -53,7 +53,7 @@ function App() {
 
       <CardList />
 
-      <AboutUs />
+      <NuevoAboutUs />
       <h1>Call to action</h1>
       <BuyNow />
       <Carrusel />

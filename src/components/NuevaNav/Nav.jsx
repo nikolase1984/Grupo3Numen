@@ -30,7 +30,7 @@ const Navbar = () => {
         >
           <button className="w-10" name={open ? "close" : "menu"}><img  src={ Icono } alt="icono" /></button>
         </div>
-        {open && <p>Soy visible</p>}
+        
 
         <ul
           className={`md:flex bg-violet md:items-center md:pb-0 pb-12 absolute md:static  md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${

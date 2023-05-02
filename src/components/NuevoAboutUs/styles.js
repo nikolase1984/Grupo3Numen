@@ -1,4 +1,4 @@
-//estilos about us
+//estilos
 
 export const divContainer = "py-8 bg-black"
 

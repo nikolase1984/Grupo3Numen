@@ -2,6 +2,7 @@ import { useState } from "react";
 import Button from "../NuevaNav/Button";
 import logo from "../../image/Logo blanco.png";
 import Icono from "../../image/barra-de-menus.png";
+import * as style from "../NuevaNav/styles"
 
 const Navbar = () => {
   let Links = [
@@ -13,24 +14,23 @@ const Navbar = () => {
   ];
   let [open, setOpen] = useState(false);
   return (
-    <div className="fixed top-0 left-0 w-full shadow-md bg-violet">
-      <div className="items-center justify-between h-20 py-4 bg-violet md:flex md:px-10 px-7">
+    <div className= { style.nav }>
+      <div className={ style.div2 }>
         <div
-          className="bg-violet font-bold text-2xl cursor-pointer flex items-center font-[Poppins] 
-      text-white"
+          className={ style.div3 }
         >
-          <span className="pt-2 mr-1 text-3xl text-indigo-600">
+          <span className={ style.span }>
             <img src={logo} alt="logo" className="w-8 h-auto" />
           </span>
         </div>
 
         <div
           onClick={() => setOpen(!open)}
-          className="absolute text-3xl cursor-pointer right-8 top-6 md:hidden"
+          className={ style.divOnClick }
         >
           <button className="w-10" name={open ? "close" : "menu"}><img  src={ Icono } alt="icono" /></button>
         </div>
-        {open && <p>Soy visible</p>}
+        
 
         <ul
           className={`md:flex bg-violet md:items-center md:pb-0 pb-12 absolute md:static  md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${

@@ -1,8 +1,9 @@
 
-
+//cambios
 export const divContainer = "py-8 bg-black"
 
 export const div ="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8"
+
 export const titulos = "sm:flex sm:items-center sm:justify-between"
 
 export const h2 ="text-3xl font-bold text-white sm:mb-4"

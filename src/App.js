@@ -50,7 +50,7 @@ function App() {
         rendimiento="200g por persona"
       />
 
-      <h1>Info</h1>
+      
 
       <CardList />
 

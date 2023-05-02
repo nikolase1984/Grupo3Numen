@@ -6,8 +6,7 @@ const Button = () => {
 
   return (
     
-    <button className='boton'
-    >INFO</button>
+    <button className='h-10 px-5 m-2 rounded-lg hover: bg-rose-900'>INFO</button>
    
   )
 }

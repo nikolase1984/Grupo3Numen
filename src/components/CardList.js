@@ -7,28 +7,30 @@ import '../stylesheet/CardList.css'
 const db = [
     {
     titulo: 'De nuestra cocina a tu casa',
-    descripcion: 'Trabajamos con la mejor materia prima del mercado. El mejor equipo de Chefs Internacionales combinan saberes y sabores a la hora de cocinar cada plato.',
-    backgroundColor: 'purple'
+    descripcion: 'Trabajamos con la mejor materia prima del mercado. El equipo de los mejores Chefs combinan sabores cada plato.',
+    
   },
   {
     titulo: 'La materia prima',
-    descripcion: 'los principales ingredientes son harina de trigo, huevos, agua y sal. También pueden incorporar ingredientes adicionales para crear variedades de pasta con sabores y colores diferentes, como espinacas, tomates secos, pimientos, ajo, queso, entre otros.',
-    backgroundColor: 'red'
+    descripcion: 'Los principales ingredientes son harina de trigo, huevos, agua y sal. Y el condimento por excelencia es el compromiso.',
+    
   },
   {
     titulo: 'Pedidos por encargos',
-    descripcion: 'el personal de El Tano pastas se esfuerza por cumplir con los plazos de entrega. Se toman las mejores medidas para garantizar que las pastas se mantengan frescas y seguros durante el transporte',
-    backgroundColor: 'beige'
+    descripcion: 'El Tano pastas es una garantia a la hora de la entrega. Confirmando que las pastas lleguen frescas a cada hogar.',
+    
   },
   {
     titulo: 'Menu del dia',
     descripcion: 'Se consideran las preferencias y sugerencias de los clientes para crear un menú que satisfaga sus gustos y necesidades.',
-    backgroundColor: 'lightbrown'
+    
   }
 ]
 
-const CardList = () => (
-  <section className='card-icon'>
+
+
+const CardList = ( ) => (
+  <section className='flex flex-wrap justify-center h-auto sm:h-72 '>
     {db.map(destino => <Card
      destino={destino} />)}
   </section>

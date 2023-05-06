@@ -1,5 +1,5 @@
 
-export const nav = "fixed top-0 left-0 w-full shadow-md bg-violet"
+export const nav = "fixed top-0 left-0 w-full shadow-md bg-violet z-10 "
 
 export const div2 = "items-center justify-between h-20 py-4 bg-violet md:flex md:px-10 px-7"
 

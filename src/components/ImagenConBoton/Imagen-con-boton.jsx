@@ -1,5 +1,5 @@
 import React from "react";
-import imagen from "../image/imagen-con-boton3.jpg";
+import imagen from "../../image/imagen-con-boton3.jpg";
 
 const Imagenconboton = () => {
   return (
@@ -8,7 +8,7 @@ const Imagenconboton = () => {
         <h2 className="p-3 text-2xl text-center text-red sm:mx-2 md:text-3xl md:text-left md:px-4">
           La tradición de la pasta italiana, hecha con nuestras manos
         </h2>
-        <button className="w-auto h-2rem mb-10 p-2 text-xs text-grey duration-300 rounded-md bg-violet md:hover:scale-105 hover:ease-linear md:text-lg md:mt-12">
+        <button className="w-auto p-2 mb-10 text-xs duration-300 rounded-md h-2rem text-grey bg-violet md:hover:scale-105 hover:ease-linear md:text-lg md:mt-12">
           CONOCE NUESTRAS RECETAS
         </button>
       </div>

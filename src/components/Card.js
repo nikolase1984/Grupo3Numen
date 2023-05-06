@@ -5,9 +5,9 @@ import '../stylesheet/Card.css'
 
 const Card = (props) => {
     return (
-      <div className="flex flex-col items-center justify-center w-64 p-3 ml-4 overflow-hidden rounded-lg mb-36 mt-36 bg-violet min-w-xs hover:shadow-lg">
+      <div className="flex flex-col items-center justify-center w-64 p-3 mt-10 mb-10 overflow-hidden rounded-lg md:mb-36 md:mt-36 md:mx-7 bg-violet min-w-xs hover:shadow-lg">
         
-          <figcaption className=''>
+          <figcaption>
             <h2 className='mb-4 font-extrabold text-zinc-300'>{props.destino.titulo}</h2>
             <p className='text-center text-zinc-300'>{props.destino.descripcion}</p>
           </figcaption>

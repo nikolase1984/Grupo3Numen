@@ -7,10 +7,10 @@ import * as style from "../NuevaNav/styles"
 const Navbar = () => {
   let Links = [
     { name: "HOME", link: "/" },
-    { name: "PRODUCTOS", link: "/" },
-    { name: "ABOUT US", link: "/" },
-    { name: "GALERIA", link: "/" },
-    { name: "CONTACTOS", link: "/" },
+    { name: "PRODUCTOS", link: "#productos" },
+    { name: "ABOUT US", link: "#aboutus" },
+    { name: "GALERIA", link: "#galeria" },
+    { name: "CONTACTOS", link: "#contactos" },
   ];
   let [open, setOpen] = useState(false);
   return (

@@ -6,7 +6,7 @@ import * as style from "../NuevaNav/styles"
 
 const Navbar = () => {
   let Links = [
-    { name: "HOME", link: "/" },
+    { name: "HOME", link: "#" },
     { name: "PRODUCTOS", link: "#productos" },
     { name: "ABOUT US", link: "#aboutus" },
     { name: "GALERIA", link: "#galeria" },

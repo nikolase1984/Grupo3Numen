@@ -1,5 +1,5 @@
 import React from "react";
-import buyNow from "../image/buyNow.png";
+import buyNow from "../../image/buyNow.png";
 
 const BuyNow = () => {
   return (

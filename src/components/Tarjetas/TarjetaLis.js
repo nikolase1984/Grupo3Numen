@@ -18,8 +18,8 @@ function tarjetaList() {
               {tarjetadb.nombre}
             </h2>
             <p className="pb-4 font-medium text-violet-600">{tarjetadb.sabor}</p>
-            <button className="w-20 mb-3 ml-6 rounded-md bg-violet text-zinc-300">
-              <p className="pb-1">Carrito</p>
+            <button className="w-20 mb-3 ml-6 rounded-md bg-violet text-zinc-300 md:hover:scale-105 md:hover:ease-linear">
+              <p className="pb-1 text-xs">Agregar al Carrito</p>
             </button>
           </div>
         </div>

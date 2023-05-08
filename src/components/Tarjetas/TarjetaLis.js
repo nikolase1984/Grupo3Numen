@@ -14,7 +14,7 @@ function TarjetaList() {
     );
     setCarrito(nuevoCarrito);
   };
-
+//cards y logica del carrito
   return (
     <div id="productos">
       <h3 className="h-24 pt-16 text-2xl bg-yellow text-black-300">

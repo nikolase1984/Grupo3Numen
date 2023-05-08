@@ -21,7 +21,7 @@ function TarjetaList() {
   );
 
   return (
-    <div id="#productos">
+    <div id="productos">
       <h3 className="h-24 pt-16 text-2xl bg-yellow text-black-300">
         NUESTROS PRODUCTOS
       </h3>

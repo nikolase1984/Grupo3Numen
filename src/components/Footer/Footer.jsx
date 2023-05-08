@@ -5,7 +5,7 @@ const Footer = () => {
   return (
 <footer className="py-2 font-bebasNeue bg-grey">
 
-    <div>
+    <div id='contactos'>
       <div className="flex content-center, justify-center py-2">
           <img style={{height: "120px", width: "120px"}}src= {logoRojo} alt="logo"/>
       </div>

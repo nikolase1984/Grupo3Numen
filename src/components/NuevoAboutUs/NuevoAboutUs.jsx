@@ -2,7 +2,7 @@ import * as style from "../NuevoAboutUs/styles"
 
 const NuevoAboutUs = () => {
     return (
-      <div className={style.divContainer}>
+      <div id="aboutus" className={style.divContainer}>
         <div className={style.div}>
           <div className={style.titulos}>
             <h2 className={style.h2}>Acerca de nosotros</h2>

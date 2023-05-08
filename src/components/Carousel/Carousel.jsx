@@ -21,7 +21,7 @@ function Carrusel() {
   };
 
   return (
-    <div className='mb-32 h-5/6'>
+    <div id='galeria' className='mb-32 h-5/6'>
     <h3 className="pb-8 mb-16 text-4xl">GALERIA</h3>
     <Slider {...settings}>
       <div>

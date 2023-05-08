@@ -16,7 +16,7 @@ const Navbar = () => {
   return (
     <div className= { style.nav }>
       <div className={ style.div2 }>
-        <div
+        <div  
           className={ style.div3 }
         >
           <span className={ style.span }>

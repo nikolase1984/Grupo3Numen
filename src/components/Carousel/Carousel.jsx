@@ -1,12 +1,11 @@
 import Carousel from 'react-bootstrap/Carousel'
-import '../Carousel/Carousel.css'
 
 export function Carrusel() {
   return (
     <div>
-      <h3 className='pt-5 text-xl font-bold'>Galeria</h3>
-    <div className='flex items-center content-center w-full h-auto'>
-      <div className='py-8 mx-auto w-96 top-4'>
+      <h3 className='mb-12 text-3xl font-bold'>GALERIA</h3>
+    <div className='flex items-center content-center w-full h-auto '>
+      <div className='py-8 mx-auto mb-20 w-96 top-4'>
         <Carousel className='first'>
           <Carousel.Item className='text-center'>
             <img 

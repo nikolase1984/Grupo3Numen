@@ -1,6 +1,6 @@
 import React from 'react'
-import Card from './Card'
-import '../stylesheet/CardList.css'
+import Card from '../Cards/Card'
+import '../../stylesheet/CardList.css'
 
 
 

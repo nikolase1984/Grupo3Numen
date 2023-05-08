@@ -5,7 +5,9 @@ import Footer from "./components/Footer.js";
 import Nav from "./components/NuevaNav/Nav.jsx";
 import BuyNow from "./components/BuyNow";
 
+
 import Imagenconboton from "./components/ImagenConBoton/Imagen-con-boton";
+
 import Info from "./components/Info";
 import CardList from "./components/CardList";
 import CallToAction2 from "./components/CallToAction2/CallToAction2";

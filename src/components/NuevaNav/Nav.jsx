@@ -9,7 +9,7 @@ const Navbar = () => {
     { name: "HOME", link: "/" },
     { name: "PRODUCTOS", link: "/" },
     { name: "ABOUT US", link: "/" },
-    { name: "GALERIA", link: "/" },
+    { name: "GALERIA", link: "#galeria" },
     { name: "CONTACTOS", link: "/" },
   ];
   let [open, setOpen] = useState(false);

@@ -14,12 +14,7 @@ function TarjetaList() {
     );
     setCarrito(nuevoCarrito);
   };
-
-  const totalCarrito = carrito.reduce(
-    (total, producto) => total + producto.precio,
-    0
-  );
-
+//cards y logica del carrito
   return (
     <div id="productos">
       <h3 className="h-24 pt-16 text-2xl bg-yellow text-black-300">
@@ -47,20 +42,23 @@ function TarjetaList() {
         ))}
       </div>
       <div>
-        <h3 className="h-24 pt-16 text-2xl bg-yellow text-black-300">
-          CARRITO DE COMPRAS
-        </h3>
-        {carrito.map((producto) => (
-          <div key={producto.id}>
-            <p>
-              {producto.nombre} - ${producto.precio}
-            </p>
-            <button onClick={() => eliminarDelCarrito(producto)}>
-              Eliminar del Carrito
-            </button>
+        {carrito.length > 0 && (
+          <div>
+            <h3 className="h-24 pt-16 text-2xl bg-yellow text-black-300">
+              CARRITO DE COMPRAS
+            </h3>
+            {carrito.map((producto) => (
+              <div key={producto.id}>
+                <p>
+                  {producto.nombre} - ${producto.precio}
+                </p>
+                <button onClick={() => eliminarDelCarrito(producto)}>
+                  Eliminar del Carrito
+                </button>
+              </div>
+            ))}
           </div>
-        ))}
-        <p>Total: ${totalCarrito}</p>
+        )}
       </div>
     </div>
   );

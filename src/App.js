@@ -7,8 +7,8 @@ import BuyNow from "./components/BuyNow/BuyNow";
 import Imagenconboton from "./components/ImagenConBoton/Imagen-con-boton";
 import Info from "./components/Info/Info";
 import CardList from "./components/Cards/CardList";
-import Info from "./components/Info";
-import CardList from "./components/CardList";
+
+
 import CallToAction2 from "./components/CallToAction2/CallToAction2";
 import TarjetaList from "./components/Tarjetas/TarjetaLis";
 

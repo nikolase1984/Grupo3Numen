@@ -3,10 +3,10 @@ import buyNow from "../../image/buyNow.png";
 
 const BuyNow = () => {
   return (
-    <div className="flex flex-col flex-wrap items-center w-screen my-20 md:my-40 bg-grey md:flex-row">
+    <div className="flex flex-col flex-wrap items-center w-full my-20 md:my-40 bg-grey md:flex-row">
       <div className="h1/2 md:w-1/2 ">
         <img
-          className="object-cover w-full opacity-75 md:h-full "
+          className="object-cover w-full opacity-75 md:pl-5 md:h-full "
           src={buyNow}
           alt="buyNow"
         />

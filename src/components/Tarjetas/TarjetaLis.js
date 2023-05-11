@@ -15,7 +15,14 @@ function TarjetaList() {
   }
 
   return (
+
     <div>
+
+    <div id="productos">
+      <h3 className="h-24 pt-16 text-2xl bg-yellow text-black-300">
+        NUESTROS PRODUCTOS
+      </h3>
+
       <div className="flex flex-wrap items-center justify-around w-full h-auto p-4 mb-16 md:items-center md:h-96 bg-yellow hover:shadow-lg">
         {db.map((producto) => (
           <div key={producto.id}>

@@ -6,7 +6,7 @@ import Swal from 'sweetalert2'
 
 const Imagenconboton = () => {
   return (
-    <div className="flex flex-col flex-wrap items-center w-screen mt-20 bg-grey md:flex-row">
+    <div className="flex flex-col flex-wrap items-center w-full mt-20 bg-grey md:flex-row">
       <div className="h-auto font-serif italic md:w-1/2 md:h-auto">
         <h2 className="p-3 text-2xl text-center text-red sm:mx-2 md:text-3xl md:text-left md:px-4">
           La tradición de la pasta italiana, hecha con nuestras manos

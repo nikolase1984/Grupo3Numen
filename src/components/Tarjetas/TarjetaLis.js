@@ -1,25 +1,28 @@
-import React, { useState } from "react";
+import { useCarrito } from "./Carrito";
+import { useState } from "react";
 import { db } from "./PastCard";
 
 function TarjetaList() {
-  const [carrito, setCarrito] = useState([]);
+  const { carrito, agregarAlCarrito, eliminarDelCarrito,obtenerContadorProducto, obtenerContadorTotal } = useCarrito();
+  const [carritoAbierto, setCarritoAbierto] = useState(false);
 
-  const agregarAlCarrito = (producto) => {
-    setCarrito([...carrito, producto]);
+  const toggleCarrito = () => {
+    setCarritoAbierto(!carritoAbierto);
   };
 
-  const eliminarDelCarrito = (productoAEliminar) => {
-    const nuevoCarrito = carrito.filter(
-      (producto) => producto.id !== productoAEliminar.id
-    );
-    setCarrito(nuevoCarrito);
-  };
-//cards y logica del carrito
+  const cerrarCarrito = () => {
+    setCarritoAbierto(false);
+  }
+
   return (
+
+    <div>
+
     <div id="productos">
       <h3 className="h-24 pt-16 text-2xl bg-yellow text-black-300">
         NUESTROS PRODUCTOS
       </h3>
+
       <div className="flex flex-wrap items-center justify-around w-full h-auto p-4 mb-16 md:items-center md:h-96 bg-yellow hover:shadow-lg">
         {db.map((producto) => (
           <div key={producto.id}>
@@ -37,29 +40,42 @@ function TarjetaList() {
               >
                 <p className="pb-1 text-xs">Agregar al Carrito</p>
               </button>
+              <p>{obtenerContadorProducto(producto)}</p>
             </div>
           </div>
         ))}
       </div>
-      <div>
-        {carrito.length > 0 && (
-          <div>
-            <h3 className="h-24 pt-16 text-2xl bg-yellow text-black-300">
-              CARRITO DE COMPRAS
+      {carrito.length > 0 && (
+        <div className="fixed top-0 right-0 z-50 p-4 bg-white rounded-md h-96 w-80">
+          <div id="CarritoCompras" className="flex items-center justify-between mb-4">
+            <h3 className="text-2xl font-bold text-black-300">
+              CARRITO DE COMPRAS ({obtenerContadorTotal()})
             </h3>
-            {carrito.map((producto) => (
-              <div key={producto.id}>
-                <p>
-                  {producto.nombre} - ${producto.precio}
-                </p>
-                <button onClick={() => eliminarDelCarrito(producto)}>
-                  Eliminar del Carrito
-                </button>
-              </div>
-            ))}
+            <button
+              className="text-2xl font-bold text-black-300 focus:outline-none"
+              onClick={cerrarCarrito}
+            >
+              X
+            </button>
           </div>
-        )}
-      </div>
+          {carrito.map((producto) => (
+            <div key={producto.id} className="mb-4">
+              <p>
+                {producto.nombre} - ${producto.precio}
+              </p>
+              <button onClick={() => eliminarDelCarrito(producto)}>
+                Eliminar del Carrito
+              </button>
+            </div>
+          ))}
+        </div>
+      )}
+      <button
+        className="fixed w-12 h-12 transition-all rounded-full shadow-md bottom-4 right-4 bg-yellow text-black-300 focus:outline-none"
+        onClick={toggleCarrito}
+      >
+        {carritoAbierto ? "-" : "+"}
+      </button>
     </div>
   );
 }

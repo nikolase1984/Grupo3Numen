@@ -28,9 +28,9 @@ function TarjetaList() {
       >
         {db.map((producto) => (
           <div key={producto.id}>
-            <div className="flex flex-col my-10 overflow-hidden bg-white rounded-lg shadow-md md:w-52 md:h-72 shadow-black xl:w-80 xl:h-96">
+            <div className="flex flex-col my-10 overflow-hidden bg-white rounded-lg shadow-md md:w-52 md:h-72 shadow-black xl:w-72 xl:h-96">
               <img
-                className="object-cover w-32 h-36 md:w-56 xl:h-48 xl:w-80"
+                className="object-cover w-32 h-36 md:w-56 xl:h-48 xl:w-72"
                 src={producto.imagen}
                 alt="Pastas"
               />
@@ -63,7 +63,7 @@ function TarjetaList() {
               className="font-serif text-xs font-bold text-black-300 xl:text-2xl focus:outline-none"
               onClick={cerrarCarrito}
             >
-              X
+              
             </button>
           </div>
           {carrito.map((producto) => (

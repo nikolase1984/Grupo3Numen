@@ -42,7 +42,7 @@ function TarjetaList() {
               </p>
               <button
                 onClick={() => agregarAlCarrito(producto)}
-                className="w-24 mb-3 ml-6 font-serif rounded-md md:ml-14 md:mb-9 bg-violet text-zinc-300 md:hover:scale-105 md:hover:transition xl:mt-5 xl:w-40 xl:h-12 xl:ml-20"
+                className="w-24 mb-3 ml-4 font-serif rounded-md md:ml-14 md:mb-9 bg-violet text-zinc-300 md:hover:scale-105 md:hover:transition xl:mt-5 xl:w-40 xl:h-12 xl:ml-14"
               >
                 Agregar al carrito
               </button>

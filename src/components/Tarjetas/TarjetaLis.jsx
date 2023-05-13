@@ -34,15 +34,15 @@ function TarjetaList() {
                 src={producto.imagen}
                 alt="Pastas"
               />
-              <h2 className="my-1 font-serif font-extrabold text-violet-950 xl:text-2xl">
+              <h2 className="my-1 font-serif text-xs font-extrabold md:text-xl">
                 {producto.nombre}
               </h2>
-              <p className="pb-3 font-serif font-medium text-violet-600 xl:text-xl">
+              <p className="pb-3 font-serif font-medium">
                 {producto.sabor}
               </p>
               <button
                 onClick={() => agregarAlCarrito(producto)}
-                className="w-24 mb-3 ml-4 font-serif rounded-md md:ml-14 md:mb-9 bg-violet text-zinc-300 md:hover:scale-105 md:hover:transition xl:mt-5 xl:w-40 xl:h-12 xl:ml-14"
+                className="w-24 mx-auto mb-3 font-serif rounded-md md:mb-9 bg-violet text-zinc-300 md:hover:scale-105 md:hover:transition xl:mt-5 xl:w-40 xl:h-12"
               >
                 Agregar al carrito
               </button>

@@ -14,13 +14,13 @@ const Navbar = () => {
   ];
   let [open, setOpen] = useState(false);
   return (
-    <div className= { style.nav }>
+    <div className={ style.nav }>
       <div className={ style.div2 }>
         <div  
           className={ style.div3 }
         >
           <span className={ style.span }>
-            <img src={logo} alt="logo" className="w-8 h-auto" />
+            <img src={logo} alt="logo" className="w-10 h-auto" />
           </span>
         </div>
 

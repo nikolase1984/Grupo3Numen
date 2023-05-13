@@ -20,7 +20,7 @@ const BuyNow = () => {
           nos preocupamos por el medio ambiente y utilizamos empaques
           biodegradables y fuentes de energía renovable.{" "}
         </p>
-        <button className="p-2 m-3 rounded-md text-zinc-100 bg-violet md:hover:scale-105 hover:ease-linear">
+        <button className="p-2 m-3 rounded-md text-zinc-100 bg-violet md:hover:scale-105 hover:transition">
           <p>Ir a la tienda</p>
         </button>
       </div>

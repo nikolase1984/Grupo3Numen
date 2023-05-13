@@ -1,39 +1,36 @@
-import React from 'react'
-import Card from '../Cards/Card'
-import '../../stylesheet/CardList.css'
-
-
+import React from "react";
+import Card from "../Cards/Card";
+import "../../stylesheet/CardList.css";
 
 const db = [
-    {
-    titulo: 'De nuestra cocina a tu casa',
-    descripcion: 'Trabajamos con la mejor materia prima del mercado. El equipo de los mejores Chefs combinan sabores cada plato.',
-    
+  {
+    titulo: "DE NUESTRA COCINA A TU CASA",
+    descripcion:
+      "Trabajamos con la mejor materia prima del mercado. El equipo de los mejores Chefs combinan sabores cada plato.",
   },
   {
-    titulo: 'La materia prima',
-    descripcion: 'Los principales ingredientes son harina de trigo, huevos, agua y sal. Y el condimento por excelencia es el compromiso.',
-    
+    titulo: "LA MATERIA PRIMA",
+    descripcion:
+      "Los principales ingredientes son harina de trigo, huevos, agua y sal. Y el condimento por excelencia es el compromiso.",
   },
   {
-    titulo: 'Pedidos por encargos',
-    descripcion: 'El Tano pastas es una garantia a la hora de la entrega. Confirmando que las pastas lleguen frescas a cada hogar.',
-    
+    titulo: "PEDIDOS POR ENCARGOS",
+    descripcion:
+      "El Tano pastas es una garantia a la hora de la entrega. Confirmando que las pastas lleguen frescas a cada hogar.",
   },
   {
-    titulo: 'Menu del dia',
-    descripcion: 'Se consideran las preferencias y sugerencias de los clientes para crear un menú que satisfaga sus gustos y necesidades.',
-    
-  }
-]
+    titulo: "MENU DEL DIA",
+    descripcion:
+      "Se consideran las preferencias y sugerencias de los clientes para crear un menú que satisfaga sus gustos y necesidades.",
+  },
+];
 
-
-
-const CardList = ( ) => (
-  <section className='flex flex-wrap justify-center h-auto sm:h-72 '>
-    {db.map(destino => <Card
-     destino={destino} />)}
+const CardList = () => (
+  <section className="flex flex-wrap justify-center h-auto sm:h-72 ">
+    {db.map((destino) => (
+      <Card destino={destino} />
+    ))}
   </section>
-)
+);
 
-export default CardList
+export default CardList;

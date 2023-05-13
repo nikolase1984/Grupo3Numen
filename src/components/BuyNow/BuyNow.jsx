@@ -11,8 +11,8 @@ const BuyNow = () => {
           alt="buyNow"
         />
       </div>
-      <div className="h-64 mt-2 font-serif italic md:w-1/2 md:h-auto">
-        <p className="px-6 py-2 text-sm text-center text-black md:text-xl md:text-center md:px-10">
+      <div className="h-64 mt-2 md:w-1/2 md:h-auto">
+        <p className="px-6 py-2 font-serif text-sm text-center text-black md:text-xl md:text-center md:px-10">
           Ofrecemos una amplia variedad de pastas frescas y deliciosas
           elaboradas con ingredientes de alta calidad. Desde opciones sin gluten
           hasta pastas veganas y vegetarianas, nos enorgullece ofrecer pastas
@@ -20,7 +20,7 @@ const BuyNow = () => {
           nos preocupamos por el medio ambiente y utilizamos empaques
           biodegradables y fuentes de energía renovable.{" "}
         </p>
-        <button className="p-2 m-3 rounded-md text-zinc-100 bg-violet md:hover:scale-105 hover:transition">
+        <button className="p-2 m-3 font-serif rounded-md text-zinc-100 bg-violet md:hover:scale-105 hover:transition">
           <p>Ir a la tienda</p>
         </button>
       </div>

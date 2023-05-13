@@ -17,7 +17,9 @@ export const useCarrito = () => {
   };
 
   const eliminarDelCarrito = (productoAEliminar) => {
-    setCarrito(carrito.filter((producto) => producto.id !== productoAEliminar.id));
+    setCarrito(
+      carrito.filter((producto) => producto.id !== productoAEliminar.id)
+    );
   };
 
   // Obtener el contador total del carrito
@@ -33,5 +35,11 @@ export const useCarrito = () => {
     return index !== -1 ? carrito[index].cantidad : 0;
   };
 
-  return { carrito, agregarAlCarrito, eliminarDelCarrito, obtenerContadorTotal, obtenerContadorProducto };
+  return {
+    carrito,
+    agregarAlCarrito,
+    eliminarDelCarrito,
+    obtenerContadorTotal,
+    obtenerContadorProducto,
+  };
 };

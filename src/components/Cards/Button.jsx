@@ -15,7 +15,7 @@ const Button = () => {
         imageHeight: 200,
         imageAlt: 'Custom image',
       })
-    }} className='h-10 px-5 m-2 rounded-lg text-zinc-300 md:hover:scale-105 hover:transition bg-rose-900'>INFO</button>
+    }} className='h-10 px-5 m-2 font-serif rounded-lg text-zinc-300 md:hover:scale-105 hover:transition bg-rose-900'>INFO</button>
    
   )
 }
